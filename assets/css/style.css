@@ -1,3 +1,51 @@
 #wrapper {
     width: 960px;
 }
+
+
+#name {
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #777777;
+}
+
+.topnav a {
+    float: right;
+  color: #777777;
+  text-align: center;
+  padding: 30px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.Profile_Float {
+    float: left;
+    width: 200px;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+}
+
+header {
+    background-color: #ffffff
+}
+
+h1 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
