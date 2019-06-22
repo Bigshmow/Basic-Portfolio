@@ -1,8 +1,3 @@
-#wrapper {
-    width: 960px;
-}
-
-
 #name {
     width: 150px;
     background-color: #4aaaa5;
@@ -19,6 +14,8 @@
 }
 
 body {
+    z-index: 100;
+    color: #777777;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -30,7 +27,13 @@ body {
 }
 
 footer {
+    color: white;
+    font-size: 12px;
+    background-color: #777777;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding-top: 35px;
+    clear: both;
 }
 
 header {
@@ -47,5 +50,39 @@ h1 {
 }
 
 h2 {
+    color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.aboutfloat {
+    float: left;
+    padding: 30px;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+.submitbutton {
+    background-color: #4aaaa5;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    height: 100px;
+}
+
+.container1 {
+    position: relative;
+}
+
+.flt1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
